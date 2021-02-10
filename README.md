@@ -1,6 +1,6 @@
 # tcbb
 
-> an node.js app built with electron, for the Seton Transfer Center & Bed Board
+> a node.js app built with electron, for the Seton Transfer Center & Bed Board
 
 ## app flow
 
