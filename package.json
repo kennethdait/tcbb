@@ -1,0 +1,27 @@
+{
+  "name": "tcbb",
+  "version": "1.0.0",
+  "description": "a node.js app built with electron, for the Seton Transfer Center & Bed Board",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kennethdait/tcbb.git"
+  },
+  "keywords": [
+    "patient-logistics",
+    "node-js",
+    "electron"
+  ],
+  "author": "Kenneth Dait",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kennethdait/tcbb/issues"
+  },
+  "homepage": "https://github.com/kennethdait/tcbb#readme",
+  "dependencies": {
+    "electron": "^11.2.3"
+  }
+}
