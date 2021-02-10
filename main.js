@@ -31,3 +31,5 @@ function openMainWindow() {
   });
 }
 
+app.on('ready', openMainWindow);
+
