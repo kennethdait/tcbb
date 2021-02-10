@@ -33,3 +33,12 @@ function openMainWindow() {
 
 app.on('ready', openMainWindow);
 
+// quit when all windows are closed
+app.on('window-all-closed', () => {
+  // check if user is on mac
+  // - on mac the app stays active until explicitly quit
+  if(process.platform !== 'darwin') {
+    // not mac, just quit
+    app.quit();
+  }
+});
